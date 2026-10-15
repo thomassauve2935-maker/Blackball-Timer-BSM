@@ -21,7 +21,7 @@ jobs:
           java-version: '17'
 
       - name: Installer Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Installer Gradle
         uses: gradle/actions/setup-gradle@v4
